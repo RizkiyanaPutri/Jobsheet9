@@ -15,3 +15,9 @@ System.out.println(bil[i]); digunakan untuk mencetak elemen array berdasarkan in
 4. Jika kondisi pada statement for-loop di atas diubah menjadi: i <= 4, apa keluaran dari program? Mengapa demikian?
 Jawab:
 program error saat dijalankan: ArrayIndexOutOfBoundsException: Index 4 out of bounds for length 4, karena saat diubah menjadi i <= 4 maka program mencoba mengakses bil[4] padahal indeks terakhirnya adalah bil[3]
+
+#Pertanyaan Percobaan 2#
+1. Ubah statement pada langkah nomor 5 dan jalankan program. Apakah terjadi perubahan? Mengapa demikian?
+Jawab:
+tidak terjadi perubahan pada output program karena nilaiAkhir.length adalah panjang array, yaitu 10. 
+Jadi i < nilaiAkhir.length sama artinya dengan i < 10
