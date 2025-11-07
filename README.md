@@ -23,3 +23,7 @@ Jadi i < nilaiAkhir.length sama artinya dengan i <
 2. Apa yang dimaksud dengan kondisi: i < nilaiAkhir.length ?
 >Jawab:
 kondisi tersebut digunakan dalam perulangan for untuk menentukan kapan perulangan berhenti, selama nilai i masih lebih kecil dari panjang array nilaiAkhir maka perulangan akan terus dijalankan. jika nilaiAkhir.length bernilai 10 berarti perulangan akan berjalan selama i kurang dari 10 (0-9)
+3. Ubah statement pada langkah nomor 6 menjadi seperti berikut ini, sehingga program hanya menampilkan nilai Mahasiswa yang lulus saja (yaitu mahasiswa yang memiliki nilai > 70). Jalankan program dan jelaskan alur program!
+>Jawab:
+pada perulangan pertama pengguna diminta memasukkan nilai akhir untuk setiap mahasiswa -> hasil input disimpan ke array nilaiAkhir[i] -> perulangan kedua digunakan untuk memeriksa setiap nilai array -> jika nilai mahasiswa lebih dari 70 maka program mencetak pesan lulus untuk mahasiswa tersebut -> jika nilai mahasiswa 70 atau kurang maka program tidak mencetak apapun -> Nilai yang dicetak hanya nilai yang lebih besar dari 70
+
