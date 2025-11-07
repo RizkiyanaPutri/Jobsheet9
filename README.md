@@ -31,3 +31,8 @@ nilai, yaitu dengan menampilkan status mana mahasiswa yang lulus dan tidak lulus
 >Jawab:
 commit ke 11 percobaan 2: modifikasi
 
+#Pertanyaan Percobaan 4#
+1. Jelaskan maksud dari statement break; pada baris ke-10 kode program percobaan 4 di atas
+>Jawab:
+statement break digunakan untuk menghentikan loop agar program tidak melanjutkan pencarian ke elemen berikutnya jika sudah ditemukan key == arrNilai[i] bernilai true
+
