@@ -26,4 +26,8 @@ kondisi tersebut digunakan dalam perulangan for untuk menentukan kapan perulanga
 3. Ubah statement pada langkah nomor 6 menjadi seperti berikut ini, sehingga program hanya menampilkan nilai Mahasiswa yang lulus saja (yaitu mahasiswa yang memiliki nilai > 70). Jalankan program dan jelaskan alur program!
 >Jawab:
 pada perulangan pertama pengguna diminta memasukkan nilai akhir untuk setiap mahasiswa -> hasil input disimpan ke array nilaiAkhir[i] -> perulangan kedua digunakan untuk memeriksa setiap nilai array -> jika nilai mahasiswa lebih dari 70 maka program mencetak pesan lulus untuk mahasiswa tersebut -> jika nilai mahasiswa 70 atau kurang maka program tidak mencetak apapun -> Nilai yang dicetak hanya nilai yang lebih besar dari 70
+4. Modifikasi program agar menampilkan status kelulusan semua mahasiswa berdasarkan
+nilai, yaitu dengan menampilkan status mana mahasiswa yang lulus dan tidak lulus
+>Jawab:
+commit ke 11 percobaan 2: modifikasi
 
