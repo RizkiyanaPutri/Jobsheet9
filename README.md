@@ -11,4 +11,7 @@ statement tersebut adalah perulangan menggunakan for yang berfungsi untuk menamp
 int i = 0; berarti variabel i mulai dari 0
 i < 4; berarti perulangan dilakukan selama i kurang dari 4 (karena array memiliki 4 elemen: indeks 0–3)
 i++ artinya setiap selesai satu putaran, nilai i bertambah 1
-System.out.println(bil[i]); digunakan untuk mencetak elemen array ke layar berdasarkan indeks i
+System.out.println(bil[i]); digunakan untuk mencetak elemen array berdasarkan indeks i
+4. Jika kondisi pada statement for-loop di atas diubah menjadi: i <= 4, apa keluaran dari program? Mengapa demikian?
+Jawab:
+program error saat dijalankan: ArrayIndexOutOfBoundsException: Index 4 out of bounds for length 4, karena saat diubah menjadi i <= 4 maka program mencoba mengakses bil[4] padahal indeks terakhirnya adalah bil[3]
